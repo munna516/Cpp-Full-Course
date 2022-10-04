@@ -30,7 +30,7 @@ int main()
     cout << "Domesticated animal count : " << domesticated_animals << endl;
    */
 
-    // Functional Initialization
+    // Functional Variable Initialization
     /*
      int apple_count(5);
      int orange_count(10);
@@ -47,7 +47,12 @@ int main()
      cout << "Narrowing conversion : " << narrowing_conversion_functional << endl;//Will loose info
      */
 
-    // Assignment notation
+    /* If you use floating point in integer , use braced initialization .
+   Because functional initialization and assignment initialization give us
+   int vlaue from the fractional part & It is realy bad.
+   */
+  
+    // Assignment Initialization
 
     int bike_count = 2;
     int truck_count = 7;
@@ -65,3 +70,4 @@ int main()
 
     return 0;
 }
+
