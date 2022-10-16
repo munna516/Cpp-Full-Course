@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    double weight{7.7};
+    double weight{191.7};
 
     // floor
     cout << "Weight rounded to floor is : " << std::floor(weight) << endl;
