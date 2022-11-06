@@ -1,4 +1,4 @@
-// find the uniquq elements of an ary
+// find the unique elements of an array
 
 #include <iostream>
 using namespace std;
