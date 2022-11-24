@@ -45,6 +45,7 @@ int main()
 
     std::cout << std::endl;
     std::cout << "std::strchr : " << std::endl;
+
     // doc : https://en.cppreference.com/w/cpp/string/byte/strchr
 
     // we use std::strchr to find all the characters one by one.
@@ -96,6 +97,7 @@ int main()
     // CODE STOLEN FROM THE DOCS :
     std::cout << std::endl;
     std::cout << "std::strrchr : " << std::endl;
+    
     // doc : https://en.cppreference.com/w/cpp/string/byte/strrchr
 
     char input[] = "/home/user/hello.cpp";
