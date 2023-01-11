@@ -48,6 +48,7 @@ int main()
     cout << "num_2 : " << num_2 << endl;
     cout << endl;
 
+
     // Pointer to const (Only pointer is modifiable ,but the pointed value is const)
     cout << endl;
     cout << "3. Pointer is modifiable but value is Constant : " << endl;
@@ -107,12 +108,12 @@ int main()
     cout << "num_4 : " << num_4 << endl;
 
     // Modifing Value
-    // *p_num4 = 106;    // compilation error
+    // *p_num4 = 106;    // compilation error  to modifi value
 
     // Modifing Address
 
     int a{106};
-    // p_num4=&a;   // Compilation error
+    // p_num4=&a;   // Compilation error to modifi address
 
     // This const pointer to const data is read only this also is const.
     cout << endl;
