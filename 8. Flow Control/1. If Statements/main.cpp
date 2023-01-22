@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    
     int num1{55};
     int num2{60};
     bool result = (num1 < num2);
