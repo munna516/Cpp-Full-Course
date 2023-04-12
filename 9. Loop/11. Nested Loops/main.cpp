@@ -9,9 +9,6 @@ int main()
 
     /*
     std::cout << "Tabular data visualization with nested for loops : " << std::endl;
-
-
-
     for (size_t row{0} ; row < ROWS ; ++ row){
 
         for (size_t col{0} ; col < COLS ; ++col){
@@ -46,7 +43,6 @@ int main()
      }
 
      */
-
     std::cout << std::endl;
     std::cout << "Tabular data visualization with nested do while loops : " << std::endl;
 
@@ -54,8 +50,7 @@ int main()
     size_t col = 0;
 
     do
-    { // row
-
+    {
         do
         {
             std::cout << "( row " << std::setw(2) << row << ",col " << std::setw(2) << col << ")   ";
@@ -63,8 +58,7 @@ int main()
         } while (col < COLS);
 
         std::cout << std::endl;
-        col = 0; // Reset col to 0 to allow printing from col 0 . col is in main
-                 // function local scope now.
+        col = 0;
         ++row;
     } while (row < ROWS);
 
